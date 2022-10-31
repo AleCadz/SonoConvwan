@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="278dp"
+        android:background="#D4B3FF">
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/imgIco"
+        android:layout_width="320dp"
+        android:layout_height="220dp"
+        android:layout_marginBottom="230dp"
+        android:src="@drawable/imgico"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/correo"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textColorHint="#707070"
+        android:textColor="@color/black"
+        android:hint="Correo"/>
+
+    <EditText
+        android:id="@+id/contrasena"
+        android:layout_width="300dp"
+        android:layout_marginTop="80dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:inputType="textPassword"
+        android:textColorHint="#707070"
+        android:textColor="@color/black"
+        android:hint="Contraseña"/>
+
+    <Button
+        android:id="@+id/btnIniciar"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="#69A1F5"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:text="Iniciar Sesión"
+        android:layout_gravity="center"
+        app:cornerRadius="20dp"
+        app:strokeColor="#707070"
+        />
+
+
+
+</FrameLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#D4B3FF">
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/imgIco"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginBottom="330dp"
+        android:src="@drawable/sonoconicon"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:textSize="22dp"
+        android:textColorHint="#707070"
+        android:backgroundTint="#707070"
+        android:textColor="@color/black"
+        android:hint="Nombre"/>
+
+
+    <EditText
+        android:id="@+id/apellido"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="140dp"
+        android:textSize="22dp"
+        android:textColorHint="#707070"
+        android:backgroundTint="#707070"
+        android:textColor="@color/black"
+        android:hint="Apellido"/>
+
+    <EditText
+        android:id="@+id/ciudad"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:textSize="22dp"
+        android:textColorHint="#707070"
+        android:backgroundTint="#707070"
+        android:textColor="@color/black"
+        android:hint="Ciudad"/>
+
+    <EditText
+        android:id="@+id/estado"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="260dp"
+        android:textSize="22dp"
+        android:textColorHint="#707070"
+        android:backgroundTint="#707070"
+        android:textColor="@color/black"
+        android:hint="Estado"/>
+
+    <EditText
+        android:id="@+id/pais"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="320dp"
+        android:textSize="22dp"
+        android:textColorHint="#707070"
+        android:backgroundTint="#707070"
+        android:textColor="@color/black"
+        android:hint="Pais"/>
+
+    <EditText
+        android:id="@+id/correo"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="380dp"
+        android:textSize="22dp"
+        android:textColorHint="#707070"
+        android:backgroundTint="#707070"
+        android:textColor="@color/black"
+        android:hint="Correo electronico"/>
+
+    <EditText
+        android:id="@+id/contrasena"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="440dp"
+        android:textSize="22dp"
+        android:inputType="textPassword"
+        android:textColorHint="#707070"
+        android:textColor="@color/black"
+        android:hint="Contraseña"
+        android:backgroundTint="#707070"/>
+
+
+    <Button
+        android:id="@+id/btnRegis"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="#69A1F5"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:text="Registrarse"
+        android:layout_gravity="center"
+        app:cornerRadius="20dp"
+        app:strokeColor="#707070"
+        />
+
+
+
+</FrameLayout>

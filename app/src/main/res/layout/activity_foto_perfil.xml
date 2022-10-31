@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#D4B3FF">
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/imgIco"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginBottom="330dp"
+        android:src="@drawable/sonoconicon"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="22dp"
+        android:text="Para finalizar con el registro agregue una foto de perfil (opcional) y un nombre de usuario"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:textColor="#707070"
+        android:layout_marginBottom="240dp"/>
+
+    <EditText
+        android:id="@+id/usuario"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="130dp"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:textColorHint="#707070"
+        android:backgroundTint="#707070"
+        android:hint="Nombre de usuario"/>
+
+
+    <Button
+        android:id="@+id/btnContinuar"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="#69A1F5"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:text="Continuar"
+        android:layout_gravity="center"
+        app:cornerRadius="20dp"
+        app:strokeColor="#707070"
+        />
+
+
+
+</FrameLayout>

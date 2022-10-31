@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "317567286375",
+    "project_id": "sonocon-sonocon",
+    "storage_bucket": "sonocon-sonocon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317567286375:android:f86259717ed5fcbc28e8c2",
+        "android_client_info": {
+          "package_name": "com.example.sonoconvwan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317567286375-tblau510q42p8vjrdn352kfhu9qbhqm0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOx59Uk_9O7a0PZAXJpH2j8mmZA4TxiUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "317567286375-tblau510q42p8vjrdn352kfhu9qbhqm0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
