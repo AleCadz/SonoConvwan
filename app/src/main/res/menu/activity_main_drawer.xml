@@ -4,23 +4,20 @@
     <group>
     <item android:id="@+id/nav_item_one"
             android:icon="@drawable/imgico"
-            android:title="Item 1"/>
+            android:title="Perfil"/>
     <item android:id="@+id/nav_item_two"
         android:icon="@drawable/imgico"
-        android:title="Item 2"/>
+        android:title="Decibelios"/>
     <item android:id="@+id/nav_item_three"
         android:icon="@drawable/imgico"
-        android:title="Item 3"/>
-    </group>
+        android:title="Opiniones"/>
 
-    <item android:title="Title 1">
-        <menu>
-            <item android:id="@+id/nav_item_six"
-                android:icon="@drawable/imgico"
-                android:title="Item 6"/>
-            <item android:id="@+id/nav_item_seven"
-                android:icon="@drawable/imgico"
-                android:title="Item 7"/>
-        </menu>
-    </item>
+    <item android:id="@+id/nav_item_four"
+            android:icon="@drawable/imgico"
+            android:title="Ajustes"/>
+
+    <item android:id="@+id/nav_item_five"
+            android:icon="@drawable/imgico"
+            android:title="Detalles"/>
+    </group>
 </menu>

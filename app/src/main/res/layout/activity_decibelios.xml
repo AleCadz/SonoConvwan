@@ -18,23 +18,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textSize="26dp"
-        android:text="Detalles de la cuenta"
-        android:layout_marginLeft="24dp"
-        android:layout_marginRight="100dp"
+        android:textSize="36dp"
+        android:text="Cargando..."
         android:textColor="@color/black"
-        android:layout_marginBottom="260dp"/>
+        android:layout_marginBottom="210dp"/>
 
     <TextView
         android:id="@+id/referencia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textSize="26dp"
-        android:text="Detalles de la cuenta"
-        android:layout_marginLeft="24dp"
-        android:layout_marginRight="100dp"
+        android:textSize="36dp"
         android:textColor="@color/black"
-        android:layout_marginBottom="210dp"/>
+        android:layout_marginBottom="130dp"/>
 
 </FrameLayout>

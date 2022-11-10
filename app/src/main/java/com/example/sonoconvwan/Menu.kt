@@ -1,5 +1,6 @@
 package com.example.sonoconvwan
 
+import android.content.Intent
 import android.content.res.Configuration
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -21,7 +22,7 @@ class Menu : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListene
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu)
 
-        val toolbar: androidx.appcompat.widget.Toolbar = findViewById(R.id.toolbar_menu)
+        val toolbar: androidx.appcompat.widget.Toolbar = findViewById(R.id.toolbar_main)
         setSupportActionBar(toolbar)
 
         drawer = findViewById(R.id.ActMenu)
@@ -39,9 +40,42 @@ class Menu : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListene
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
 
         when(item.itemId){
-            R.id.nav_item_one -> Toast.makeText(this, "Item 1", Toast.LENGTH_SHORT).show()
-            R.id.nav_item_two -> Toast.makeText(this, "Item 2", Toast.LENGTH_SHORT).show()
-            R.id.nav_item_three -> Toast.makeText(this, "Item 3", Toast.LENGTH_SHORT).show()
+            R.id.nav_item_one -> {
+
+                //Para perfil
+                val intent = Intent(this, Perfil::class.java)
+                startActivity(intent)
+
+            }
+            R.id.nav_item_two -> {
+
+                //Para mapa
+                val intent = Intent(this, Decibelios::class.java)
+                startActivity(intent)
+
+            }
+            R.id.nav_item_three -> {
+
+                //Para Opiniones
+                val intent = Intent(this, Opiniones::class.java)
+                startActivity(intent)
+
+            }
+            R.id.nav_item_four -> {
+
+                //Para ajustes
+                val intent = Intent(this, Ajustes::class.java)
+                startActivity(intent)
+
+            }
+            R.id.nav_item_five -> {
+
+                //Para detalles
+                val intent = Intent(this, Detalles::class.java)
+                startActivity(intent)
+
+            }
+
         }
 
         drawer.closeDrawer(GravityCompat.START)

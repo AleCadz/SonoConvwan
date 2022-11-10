@@ -22,7 +22,7 @@
         android:layout_marginLeft="24dp"
         android:layout_marginRight="100dp"
         android:textColor="@color/black"
-        android:layout_marginBottom="260dp"/>
+        android:layout_marginBottom="240dp"/>
 
     <ImageView
         android:id="@+id/imgIco"
@@ -88,7 +88,7 @@
         android:textColorHint="#707070"
         android:backgroundTint="#707070"
         android:textColor="@color/black"
-        android:hint="Correo electronico"/>
+        android:hint="Contraseña"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -112,6 +112,6 @@
         android:textColorHint="#707070"
         android:backgroundTint="#707070"
         android:textColor="@color/black"
-        android:hint="Correo electronico"/>
+        android:hint="Numero telefonico"/>
 
 </FrameLayout>
